@@ -86,9 +86,8 @@ a {
   transition: all 0.3s ease;
 }
 a:hover {
-  opacity: 0.6;
   @include mq('md') {
-    opacity: 1;
+    opacity: 0.6;
   }
 }
 
@@ -130,11 +129,6 @@ textarea {
 
 textarea {
   resize: vertical;
-}
-
-input[type='checkbox'],
-input[type='radio'] {
-  display: none;
 }
 
 input[type='submit'],
